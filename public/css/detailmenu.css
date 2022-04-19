@@ -1,0 +1,35 @@
+.body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.fas fa-filter{
+    color: black;
+}
+
+input[type="date"] {
+    color:black;
+    background: white;
+    box-shadow: 0.2px 0.2px 2px;
+    border: transparent;
+    border-radius: 4px;
+}
+
+::-webkit-datetime-edit {
+    padding-left: 10%;
+}
+
+.gambarmenu img {
+    width: 250px;
+    height: 250px;
+    transform: translateX(300px);
+}
+
+
+.detail {
+    transform: translateX(400px);
+}

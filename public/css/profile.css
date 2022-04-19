@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+.profile {
+    width: 75%;
+    margin: 50px 50px 50px 150px;
+    font-family: "Montserrat", sans-serif;
+}
+.profilecontrol {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.controlbutton {
+    display: flex;
+    flex-direction: column;
+    /* color: rgb(255, 203, 141); */
+}
+
+.controlbutton button {
+    padding: 20px;
+    font-size: 19px;
+    background-color: rgb(255, 203, 141);
+    border: 0.5px solid black;
+}
+.tabcontent {
+    width: 1000px;
+    background-color: rgba(246, 246, 246, 1);
+    border-radius: 0;
+    border: 1px solid black;
+}
+.changeProfilePic {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    /* height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey; */
+}
+.changeProfilePic img {
+    width: 150px;
+    height: 150px;
+}
+
+/* #file {
+    display: none;
+}
+
+#uploadPhoto {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(246, 246, 246, 1);
+    color: black;
+    line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+} */
+
+.editprofile {
+    background-color: rgba(246, 246, 246, 1);
+}
+.editinfo {
+    width: 70%;
+    padding-top: 50px;
+    margin: 0px 50px 50px;
+}
+.controlinfo {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+}
+.controltext {
+    width: 48%;
+    font-size: 14px;
+}
+.controltext h5 {
+    padding-left: 40%;
+}
+.inputProfile {
+    width: 52%;
+}
+.inputProfile input {
+    width: 100%;
+}
+.inputGender {
+    width: 52%;
+    display: flex;
+    justify-content: space-around;
+}
+.inputAddress {
+    width: 52%;
+}
+.inputAddress input {
+    width: 100%;
+    height: 300px;
+}
+.button-saveProfile {
+    display: flex;
+}
+
+.save-profile,
+.cancel-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 60px 10px 10px 30px;
+}
+.save-profile button,
+.cancel-profile button {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+    background-color: #e25f21;
+}
+.save-profile button:hover,
+.cancel-profile button:hover {
+    color: white;
+}
+
+.button-savePass {
+    display: flex;
+}
+
+.save-pass,
+.cancel-pass {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 60px 20px 50px 30px;
+}
+.save-pass button,
+.cancel-pass button {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+    background-color: #e25f21;
+}
+.save-pass button:hover,
+.cancel-pass button:hover {
+    color: white;
+}
+
+.controltextandimg {
+    width: 100%;
+}
+.controltextandimg {
+    display: flex;
+    margin-top: 30px;
+}
+.imgcontrol {
+    width: 30%;
+    display: flex;
+}
+.textcontrol {
+    width: 50%;
+    display: flex;
+    margin: 0px 200px 20px 325px;
+}
+.imgcontrol img {
+    width: 100px;
+    height: 100px;
+    margin: 50px 300px 20px 300px;
+}
+.controlinput {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.textcontrol-InputPass {
+    display: flex;
+    width: 50%;
+    padding-left: 15%;
+}
+.controlinputPass {
+    width: 50%;
+}
+.controlinputPass input {
+    width: 70%;
+}
+.buttoncontrolOrders {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.button-ongoingTab {
+    width: 50%;
+}
+.button-ongoingTab button {
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid black;
+    /* color: rgb(255, 144, 103); */
+    background-color: rgb(255, 144, 103);
+}
+.button-completedTab {
+    width: 50%;
+}
+.button-completedTab button {
+    width: 100%;
+    border-radius: 0 14px 0 0;
+    height: 100%;
+    border: 0.5px solid black;
+}
+.orderOngoing {
+    width: 100%;
+    height: 80%;
+    border-radius: 0 0 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+.orderOngoingAll {
+    width: 80%;
+    height: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
